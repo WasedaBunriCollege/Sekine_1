@@ -1,0 +1,179 @@
+﻿  ANDROID_HOME=C:\Program Files (x86)\Android\android-sdk
+  ANT_HOME=C:\Program Files (x86)\Microsoft Visual Studio 14.0\Apps\apache-ant-1.9.3\
+  JAVA_HOME=
+  NDK_ROOT=C:\ProgramData\Microsoft\AndroidNDK64\android-ndk-r11c\
+  Scene.cpp
+  In file included from Source\Scene.cpp:1:
+  In file included from Source/Scene.hpp:5:
+  In file included from Source/MuscleBreak.hpp:10:
+Source/Meter.hpp(29,13): warning : in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+          bool isMax = false;
+                     ^
+Source/Meter.hpp(33,13): warning : in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+          bool isMin = false;
+                     ^
+  In file included from Source\Scene.cpp:1:
+  In file included from Source/Scene.hpp:5:
+  In file included from Source/MuscleBreak.hpp:14:
+  In file included from Source/Effect.hpp:6:
+Source/Particle.hpp(24,15): warning : in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+          bool reverse = false;
+                       ^
+Source/Particle.hpp(25,12): warning : in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+          bool stop = true;
+                    ^
+Source/Particle.hpp(65,12): warning : in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+          bool stop = false;
+                    ^
+Source/Particle.hpp(78,21): warning : in-class initializer for static data member of type 'const float' is a GNU extension [-Wgnu-static-float-init]
+          static const float g = 9.80665f;
+                             ^   ~~~~~~~~
+  In file included from Source\Scene.cpp:1:
+  In file included from Source/Scene.hpp:5:
+  In file included from Source/MuscleBreak.hpp:14:
+Source/Effect.hpp(92,16): warning : in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+          int stopCount = 0;
+                        ^
+Source/Effect.hpp(96,14): warning : in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+          bool isStop = false;
+                      ^
+Source/Effect.hpp(111,14): warning : in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+          bool isPlay = false;
+                      ^
+Source/Effect.hpp(113,12): warning : in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+          int alpha = 0;
+                    ^
+Source/Effect.hpp(158,12): warning : in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+          int alpha = 0;
+                    ^
+Source/Effect.hpp(159,15): warning : in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+          float radius = 0;
+                       ^
+Source/Effect.hpp(161,20): warning : in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+          float centerAngle = 0.f;
+                            ^
+Source/Effect.hpp(165,17): warning : in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+          bool isPlaying = false;
+                         ^
+Source/Effect.hpp(166,18): warning : in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+          bool isStopping = false;
+                          ^
+Source/Effect.hpp(170,14): warning : in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+          bool canUse = true;
+                      ^
+  In file included from Source\Scene.cpp:1:
+  In file included from Source/Scene.hpp:5:
+  In file included from Source/MuscleBreak.hpp:17:
+Source/Header.h(33,12): warning : in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+          int judge = 0;
+                    ^
+Source/Header.h(36,12): warning : in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+          int Color = GetColor(255, 255, 255);
+                    ^
+Source/Header.h(38,18): warning : in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+          float RingScale = 300;
+                          ^
+Source/Header.h(39,18): warning : in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+          float RingCount = 0;
+                          ^
+Source/Header.h(41,16): warning : in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+          bool StartTap = false;
+                        ^
+Source/Header.h(42,13): warning : in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+          bool Mouse = true;
+                     ^
+Source/Header.h(43,19): warning : in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+          bool ScaleChange = false;
+                           ^
+Source/Header.h(44,15): warning : in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+          bool Playing = false;
+                       ^
+Source/Header.h(60,13): warning : in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+          float Alpha=0;
+                     ^
+Source/Header.h(61,13): warning : in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+          float time = 0;
+                     ^
+Source/Header.h(64,15): warning : in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+          bool ManGrap = true;
+                       ^
+Source/Header.h(65,13): warning : in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+          bool DrawB = true; 
+                     ^
+Source/Header.h(67,13): warning : in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+          bool TimeF = false;
+                     ^
+Source/Header.h(68,12): warning : in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+          bool EndF = false;
+                    ^
+Source\Scene.cpp(137,75): warning : conversion from string literal to 'char *' is deprecated [-Wc++11-compat-deprecated-writable-strings]
+          Button button(Vector2(1080 / 2 - 150, 1920 / 2 - 50), Vector2(300, 100), "START");
+                                                                                   ^
+Source\Scene.cpp(138,74): warning : conversion from string literal to 'char *' is deprecated [-Wc++11-compat-deprecated-writable-strings]
+          Button rank(Vector2(1080 / 2 - 150, 1920 / 2 + 100), Vector2(300, 100), "RANKING");
+                                                                                  ^
+Source\Scene.cpp(228,60): warning : conversion from string literal to 'char *' is deprecated [-Wc++11-compat-deprecated-writable-strings]
+          Button pause(Vector2(1080 - 300, 100), Vector2(200, 100), "Pause");
+                                                                    ^
+Source\Scene.cpp(229,74): warning : conversion from string literal to 'char *' is deprecated [-Wc++11-compat-deprecated-writable-strings]
+          Button back(Vector2(1080 / 2 - 200, 1920 / 2 - 150), Vector2(400, 100), "CLOSE");
+                                                                                  ^
+Source\Scene.cpp(230,74): warning : conversion from string literal to 'char *' is deprecated [-Wc++11-compat-deprecated-writable-strings]
+          Button title(Vector2(1080 / 2 - 225, 1920 / 2 + 50), Vector2(450, 100), "TITLE");
+                                                                                  ^
+Source\Scene.cpp(472,75): warning : conversion from string literal to 'char *' is deprecated [-Wc++11-compat-deprecated-writable-strings]
+          Button replay(Vector2(1080 / 2 - 150, 1920 / 2 - 50), Vector2(300, 100), "RETRY");
+                                                                                   ^
+Source\Scene.cpp(473,74): warning : conversion from string literal to 'char *' is deprecated [-Wc++11-compat-deprecated-writable-strings]
+          Button back(Vector2(1080 / 2 - 150, 1920 / 2 + 100), Vector2(300, 100), "TITLE");
+                                                                                  ^
+Source\Scene.cpp(530,75): warning : conversion from string literal to 'char *' is deprecated [-Wc++11-compat-deprecated-writable-strings]
+          Button button(Vector2(1080 / 2 - 100, 1920 / 2 +500), Vector2(200, 100), "BACK");
+                                                                                   ^
+  In file included from Source\Scene.cpp:1:
+  In file included from Source/Scene.hpp:5:
+  In file included from Source/MuscleBreak.hpp:14:
+Source/Effect.hpp(43,4): warning : delete called on 'ClothParticle' that has virtual functions but non-virtual destructor [-Wdelete-non-virtual-dtor]
+                          delete particle[i];
+                          ^
+  Source/Effect.hpp(107,7) :  note: in instantiation of member function 'Effect<ClothParticle>::~Effect' requested here
+  class ClothBreak : public Effect<ClothParticle>
+        ^
+Source/Effect.hpp(43,4): warning : delete called on 'SmokeParticle' that has virtual functions but non-virtual destructor [-Wdelete-non-virtual-dtor]
+                          delete particle[i];
+                          ^
+  Source/Effect.hpp(87,7) :  note: in instantiation of member function 'Effect<SmokeParticle>::~Effect' requested here
+  class Smoke : public Effect<SmokeParticle>
+        ^
+Source/Effect.hpp(43,4): warning : delete called on 'LineParticle' that has virtual functions but non-virtual destructor [-Wdelete-non-virtual-dtor]
+                          delete particle[i];
+                          ^
+  Source/Effect.hpp(130,7) :  note: in instantiation of member function 'Effect<LineParticle>::~Effect' requested here
+  class LineEffect : public Effect<LineParticle>
+        ^
+Source/Effect.hpp(30,13): warning : field 'particleCount' will be initialized after field 'range' [-Wreorder]
+                  pos(pos), particleCount(particleCount), range(range), time(time)
+                            ^
+  Source\Scene.cpp(251,19) :  note: in instantiation of member function 'Effect<Particle>::Effect' requested here
+          Effect<Particle> effect(Vector2(1080 / 2, 1920 / 2 + 50), 0, 400, 1.f);
+                           ^
+  In file included from Source\Scene.cpp:1:
+  In file included from Source/Scene.hpp:5:
+  In file included from Source/MuscleBreak.hpp:14:
+Source/Effect.hpp(43,4): warning : delete called on 'Particle' that has virtual functions but non-virtual destructor [-Wdelete-non-virtual-dtor]
+                          delete particle[i];
+                          ^
+  Source\Scene.cpp(251,19) :  note: in instantiation of member function 'Effect<Particle>::~Effect' requested here
+          Effect<Particle> effect(Vector2(1080 / 2, 1920 / 2 + 50), 0, 400, 1.f);
+                           ^
+  In file included from Source\Scene.cpp:1:
+  In file included from Source/Scene.hpp:5:
+  In file included from Source/MuscleBreak.hpp:14:
+Source/Effect.hpp(67,4): warning : delete called on 'Particle' that has virtual functions but non-virtual destructor [-Wdelete-non-virtual-dtor]
+                          delete particle[i];
+                          ^
+  Source\Scene.cpp(255,9) :  note: in instantiation of member function 'Effect<Particle>::ChangeParticleCount' requested here
+          effect.ChangeParticleCount(0);
+                 ^
+  44 warnings generated.
+  MuscleBreak.NativeActivity.vcxproj -> D:\Program\Project\DxLib\MuscleBreak\Project\ARM\Release\libMuscleBreak.so

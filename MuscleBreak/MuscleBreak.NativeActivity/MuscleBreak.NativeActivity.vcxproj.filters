@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source">
+      <UniqueIdentifier>{e1ca67b1-bf06-4a20-891f-b10eee9c9cfd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header">
+      <UniqueIdentifier>{5ff85793-3503-44a4-a85e-b50a83858a9b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header\Shimada">
+      <UniqueIdentifier>{2295fcd5-d8bf-43db-a1d8-803d8015086a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header\Sekine">
+      <UniqueIdentifier>{f48d5549-9f93-461e-88d8-23686d3db1c6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Shimada">
+      <UniqueIdentifier>{ab5c0e4c-55f6-4a23-a307-ed70d75255fa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Sekine">
+      <UniqueIdentifier>{23902106-1a04-483f-a1e4-7ad45f9f9b27}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Source\Math.cpp">
+      <Filter>Source\Sekine</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Meter.cpp">
+      <Filter>Source\Sekine</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Other.cpp">
+      <Filter>Source\Sekine</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Button.cpp">
+      <Filter>Source\Sekine</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Ranking.cpp">
+      <Filter>Source\Sekine</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Effect.cpp">
+      <Filter>Source\Sekine</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Particle.cpp">
+      <Filter>Source\Sekine</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\JustTap.cpp">
+      <Filter>Source\Shimada</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Main.cpp">
+      <Filter>Source\Sekine</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Scene.cpp">
+      <Filter>Source\Sekine</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\TitleAnimetioncpp.cpp">
+      <Filter>Source\Shimada</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Source\MuscleBreakMath.hpp">
+      <Filter>Header\Sekine</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Meter.hpp">
+      <Filter>Header\Sekine</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Other.hpp">
+      <Filter>Header\Sekine</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Button.hpp">
+      <Filter>Header\Sekine</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Ranking.hpp">
+      <Filter>Header\Sekine</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Particle.hpp">
+      <Filter>Header\Sekine</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Effect.hpp">
+      <Filter>Header\Sekine</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Header.h">
+      <Filter>Header\Shimada</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\MuscleBreak.hpp">
+      <Filter>Header\Sekine</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Scene.hpp">
+      <Filter>Header\Sekine</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

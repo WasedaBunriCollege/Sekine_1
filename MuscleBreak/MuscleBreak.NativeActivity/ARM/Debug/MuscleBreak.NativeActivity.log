@@ -1,0 +1,771 @@
+﻿  ANDROID_HOME=C:\Program Files (x86)\Android\android-sdk
+  ANT_HOME=C:\Program Files (x86)\Microsoft Visual Studio 14.0\Apps\apache-ant-1.9.3\
+  JAVA_HOME=
+  NDK_ROOT=C:\ProgramData\Microsoft\AndroidNDK64\android-ndk-r11c\
+  Button.cpp
+  Effect.cpp
+  In file included from Source\Effect.cpp:6:
+  In file included from Source/Effect.hpp:11:
+  In file included from Source/Particle.hpp:8:
+  In file included from Source/MuscleBreak.hpp:15:
+Source/Meter.hpp(50,13): warning : in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+          bool isMax = false;
+                     ^
+Source/Meter.hpp(54,13): warning : in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+          bool isMin = false;
+                     ^
+  In file included from Source\Effect.cpp:6:
+  In file included from Source/Effect.hpp:11:
+  In file included from Source/Particle.hpp:8:
+  In file included from Source/MuscleBreak.hpp:22:
+Source/Header.h(33,12): warning : in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+          int judge = 0;
+                    ^
+Source/Header.h(36,12): warning : in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+          int Color = GetColor(255, 255, 255);
+                    ^
+Source/Header.h(38,18): warning : in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+          float RingScale = 300;
+                          ^
+Source/Header.h(39,18): warning : in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+          float RingCount = 0;
+                          ^
+Source/Header.h(41,16): warning : in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+          bool StartTap = false;
+                        ^
+Source/Header.h(42,13): warning : in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+          bool Mouse = true;
+                     ^
+Source/Header.h(43,19): warning : in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+          bool ScaleChange = false;
+                           ^
+Source/Header.h(44,15): warning : in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+          bool Playing = false;
+                       ^
+Source/Header.h(60,13): warning : in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+          float Alpha=0;
+                     ^
+Source/Header.h(61,13): warning : in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+          float time = 0;
+                     ^
+Source/Header.h(64,15): warning : in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+          bool ManGrap = true;
+                       ^
+Source/Header.h(65,13): warning : in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+          bool DrawB = true; 
+                     ^
+Source/Header.h(67,13): warning : in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+          bool TimeF = false;
+                     ^
+Source/Header.h(68,12): warning : in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+          bool EndF = false;
+                    ^
+  In file included from Source\Effect.cpp:6:
+  In file included from Source/Effect.hpp:11:
+Source/Particle.hpp(49,15): warning : in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+          bool reverse = false;
+                       ^
+Source/Particle.hpp(53,12): warning : in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+          bool stop = true;
+                    ^
+Source/Particle.hpp(152,12): warning : in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+          bool stop = false;
+                    ^
+Source/Particle.hpp(187,21): warning : in-class initializer for static data member of type 'const float' is a GNU extension [-Wgnu-static-float-init]
+          static const float g = 9.80665f;
+                             ^   ~~~~~~~~
+  In file included from Source\Effect.cpp:6:
+Source/Effect.hpp(151,16): warning : in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+          int stopCount = 0;
+                        ^
+Source/Effect.hpp(158,14): warning : in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+          bool isStop = false;
+                      ^
+Source/Effect.hpp(195,14): warning : in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+          bool isPlay = false;
+                      ^
+Source/Effect.hpp(200,12): warning : in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+          int alpha = 0;
+                    ^
+Source/Effect.hpp(301,12): warning : in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+          int alpha = 0;
+                    ^
+Source/Effect.hpp(305,15): warning : in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+          float radius = 0;
+                       ^
+Source/Effect.hpp(310,20): warning : in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+          float centerAngle = 0.f;
+                            ^
+Source/Effect.hpp(320,17): warning : in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+          bool isPlaying = false;
+                         ^
+Source/Effect.hpp(324,18): warning : in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+          bool isStopping = false;
+                          ^
+Source/Effect.hpp(331,14): warning : in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+          bool canUse = true;
+                      ^
+Source\Effect.cpp(72,13): warning : logical not is only applied to the left hand side of this comparison [-Wlogical-not-parentheses]
+                          isPlay = !alpha <= 0;
+                                   ^      ~~
+  Source\Effect.cpp(72,13) :  note: add parentheses after the '!' to evaluate the comparison first
+                          isPlay = !alpha <= 0;
+                                   ^
+                                    (         )
+  Source\Effect.cpp(72,13) :  note: add parentheses around left hand side expression to silence this warning
+                          isPlay = !alpha <= 0;
+                                   ^
+                                   (     )
+Source\Effect.cpp(151,32): warning : field 'speed' will be initialized after field 'range' [-Wreorder]
+          particleCount(particleCount), speed(speed), range(range)
+                                        ^
+  In file included from Source\Effect.cpp:6:
+Source/Effect.hpp(80,4): warning : delete called on 'SmokeParticle' that has virtual functions but non-virtual destructor [-Wdelete-non-virtual-dtor]
+                          delete particle[i];
+                          ^
+  Source\Effect.cpp(8,8) :  note: in instantiation of member function 'Effect<SmokeParticle>::~Effect' requested here
+  Smoke::Smoke(Vector2 pos, int particleCount, float angle, float range, int speed, int length, float time) :
+         ^
+  In file included from Source\Effect.cpp:6:
+Source/Effect.hpp(80,4): warning : delete called on 'ClothParticle' that has virtual functions but non-virtual destructor [-Wdelete-non-virtual-dtor]
+                          delete particle[i];
+                          ^
+  Source\Effect.cpp(77,13) :  note: in instantiation of member function 'Effect<ClothParticle>::~Effect' requested here
+  ClothBreak::ClothBreak(Vector2 pos, int particleCount, float speed, int range)
+              ^
+  In file included from Source\Effect.cpp:6:
+Source/Effect.hpp(80,4): warning : delete called on 'LineParticle' that has virtual functions but non-virtual destructor [-Wdelete-non-virtual-dtor]
+                          delete particle[i];
+                          ^
+  Source\Effect.cpp(118,13) :  note: in instantiation of member function 'Effect<LineParticle>::~Effect' requested here
+  LineEffect::LineEffect(Vector2 pos, int particleCount, int range, unsigned int color)
+              ^
+  In file included from Source\Effect.cpp:6:
+Source/Effect.hpp(147,6): warning : private field 'length' is not used [-Wunused-private-field]
+          int length;
+              ^
+  36 warnings generated.
+  JustTap.cpp
+  In file included from Source\JustTap.cpp:1:
+  In file included from Source/Header.h:3:
+  In file included from Source/MuscleBreak.hpp:15:
+Source/Meter.hpp(50,13): warning : in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+          bool isMax = false;
+                     ^
+Source/Meter.hpp(54,13): warning : in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+          bool isMin = false;
+                     ^
+  In file included from Source\JustTap.cpp:1:
+  In file included from Source/Header.h:3:
+  In file included from Source/MuscleBreak.hpp:19:
+  In file included from Source/Effect.hpp:11:
+Source/Particle.hpp(49,15): warning : in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+          bool reverse = false;
+                       ^
+Source/Particle.hpp(53,12): warning : in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+          bool stop = true;
+                    ^
+Source/Particle.hpp(152,12): warning : in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+          bool stop = false;
+                    ^
+Source/Particle.hpp(187,21): warning : in-class initializer for static data member of type 'const float' is a GNU extension [-Wgnu-static-float-init]
+          static const float g = 9.80665f;
+                             ^   ~~~~~~~~
+  In file included from Source\JustTap.cpp:1:
+  In file included from Source/Header.h:3:
+  In file included from Source/MuscleBreak.hpp:19:
+Source/Effect.hpp(151,16): warning : in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+          int stopCount = 0;
+                        ^
+Source/Effect.hpp(158,14): warning : in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+          bool isStop = false;
+                      ^
+Source/Effect.hpp(195,14): warning : in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+          bool isPlay = false;
+                      ^
+Source/Effect.hpp(200,12): warning : in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+          int alpha = 0;
+                    ^
+Source/Effect.hpp(301,12): warning : in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+          int alpha = 0;
+                    ^
+Source/Effect.hpp(305,15): warning : in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+          float radius = 0;
+                       ^
+Source/Effect.hpp(310,20): warning : in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+          float centerAngle = 0.f;
+                            ^
+Source/Effect.hpp(320,17): warning : in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+          bool isPlaying = false;
+                         ^
+Source/Effect.hpp(324,18): warning : in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+          bool isStopping = false;
+                          ^
+Source/Effect.hpp(331,14): warning : in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+          bool canUse = true;
+                      ^
+  In file included from Source\JustTap.cpp:1:
+Source/Header.h(33,12): warning : in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+          int judge = 0;
+                    ^
+Source/Header.h(36,12): warning : in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+          int Color = GetColor(255, 255, 255);
+                    ^
+Source/Header.h(38,18): warning : in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+          float RingScale = 300;
+                          ^
+Source/Header.h(39,18): warning : in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+          float RingCount = 0;
+                          ^
+Source/Header.h(41,16): warning : in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+          bool StartTap = false;
+                        ^
+Source/Header.h(42,13): warning : in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+          bool Mouse = true;
+                     ^
+Source/Header.h(43,19): warning : in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+          bool ScaleChange = false;
+                           ^
+Source/Header.h(44,15): warning : in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+          bool Playing = false;
+                       ^
+Source/Header.h(60,13): warning : in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+          float Alpha=0;
+                     ^
+Source/Header.h(61,13): warning : in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+          float time = 0;
+                     ^
+Source/Header.h(64,15): warning : in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+          bool ManGrap = true;
+                       ^
+Source/Header.h(65,13): warning : in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+          bool DrawB = true; 
+                     ^
+Source/Header.h(67,13): warning : in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+          bool TimeF = false;
+                     ^
+Source/Header.h(68,12): warning : in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+          bool EndF = false;
+                    ^
+  30 warnings generated.
+  Main.cpp
+  In file included from Source\Main.cpp:6:
+  In file included from Source/MuscleBreak.hpp:15:
+Source/Meter.hpp(50,13): warning : in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+          bool isMax = false;
+                     ^
+Source/Meter.hpp(54,13): warning : in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+          bool isMin = false;
+                     ^
+  In file included from Source\Main.cpp:6:
+  In file included from Source/MuscleBreak.hpp:19:
+  In file included from Source/Effect.hpp:11:
+Source/Particle.hpp(49,15): warning : in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+          bool reverse = false;
+                       ^
+Source/Particle.hpp(53,12): warning : in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+          bool stop = true;
+                    ^
+Source/Particle.hpp(152,12): warning : in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+          bool stop = false;
+                    ^
+Source/Particle.hpp(187,21): warning : in-class initializer for static data member of type 'const float' is a GNU extension [-Wgnu-static-float-init]
+          static const float g = 9.80665f;
+                             ^   ~~~~~~~~
+  In file included from Source\Main.cpp:6:
+  In file included from Source/MuscleBreak.hpp:19:
+Source/Effect.hpp(151,16): warning : in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+          int stopCount = 0;
+                        ^
+Source/Effect.hpp(158,14): warning : in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+          bool isStop = false;
+                      ^
+Source/Effect.hpp(195,14): warning : in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+          bool isPlay = false;
+                      ^
+Source/Effect.hpp(200,12): warning : in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+          int alpha = 0;
+                    ^
+Source/Effect.hpp(301,12): warning : in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+          int alpha = 0;
+                    ^
+Source/Effect.hpp(305,15): warning : in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+          float radius = 0;
+                       ^
+Source/Effect.hpp(310,20): warning : in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+          float centerAngle = 0.f;
+                            ^
+Source/Effect.hpp(320,17): warning : in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+          bool isPlaying = false;
+                         ^
+Source/Effect.hpp(324,18): warning : in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+          bool isStopping = false;
+                          ^
+Source/Effect.hpp(331,14): warning : in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+          bool canUse = true;
+                      ^
+  In file included from Source\Main.cpp:6:
+  In file included from Source/MuscleBreak.hpp:22:
+Source/Header.h(33,12): warning : in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+          int judge = 0;
+                    ^
+Source/Header.h(36,12): warning : in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+          int Color = GetColor(255, 255, 255);
+                    ^
+Source/Header.h(38,18): warning : in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+          float RingScale = 300;
+                          ^
+Source/Header.h(39,18): warning : in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+          float RingCount = 0;
+                          ^
+Source/Header.h(41,16): warning : in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+          bool StartTap = false;
+                        ^
+Source/Header.h(42,13): warning : in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+          bool Mouse = true;
+                     ^
+Source/Header.h(43,19): warning : in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+          bool ScaleChange = false;
+                           ^
+Source/Header.h(44,15): warning : in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+          bool Playing = false;
+                       ^
+Source/Header.h(60,13): warning : in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+          float Alpha=0;
+                     ^
+Source/Header.h(61,13): warning : in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+          float time = 0;
+                     ^
+Source/Header.h(64,15): warning : in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+          bool ManGrap = true;
+                       ^
+Source/Header.h(65,13): warning : in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+          bool DrawB = true; 
+                     ^
+Source/Header.h(67,13): warning : in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+          bool TimeF = false;
+                     ^
+Source/Header.h(68,12): warning : in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+          bool EndF = false;
+                    ^
+  30 warnings generated.
+  Math.cpp
+Source\Math.cpp(32,9): warning : address of stack memory associated with local variable 'str' returned [-Wreturn-stack-address]
+          return str;
+                 ^~~
+  1 warning generated.
+  Meter.cpp
+  In file included from Source\Meter.cpp:6:
+Source/Meter.hpp(50,13): warning : in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+          bool isMax = false;
+                     ^
+Source/Meter.hpp(54,13): warning : in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+          bool isMin = false;
+                     ^
+Source\Meter.cpp(9,2): warning : field 'position' will be initialized after field 'size' [-Wreorder]
+          position(position), size(size), value(initValue), maxValue(maxValue)
+          ^
+Source\Meter.cpp(9,34): warning : field 'value' will be initialized after field 'maxValue' [-Wreorder]
+          position(position), size(size), value(initValue), maxValue(maxValue)
+                                          ^
+  4 warnings generated.
+  Particle.cpp
+  In file included from Source\Particle.cpp:6:
+  In file included from Source/Particle.hpp:8:
+  In file included from Source/MuscleBreak.hpp:15:
+Source/Meter.hpp(50,13): warning : in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+          bool isMax = false;
+                     ^
+Source/Meter.hpp(54,13): warning : in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+          bool isMin = false;
+                     ^
+  In file included from Source\Particle.cpp:6:
+  In file included from Source/Particle.hpp:8:
+  In file included from Source/MuscleBreak.hpp:19:
+Source/Effect.hpp(151,16): warning : in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+          int stopCount = 0;
+                        ^
+Source/Effect.hpp(158,14): warning : in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+          bool isStop = false;
+                      ^
+Source/Effect.hpp(195,14): warning : in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+          bool isPlay = false;
+                      ^
+Source/Effect.hpp(200,12): warning : in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+          int alpha = 0;
+                    ^
+Source/Effect.hpp(301,12): warning : in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+          int alpha = 0;
+                    ^
+Source/Effect.hpp(305,15): warning : in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+          float radius = 0;
+                       ^
+Source/Effect.hpp(310,20): warning : in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+          float centerAngle = 0.f;
+                            ^
+Source/Effect.hpp(320,17): warning : in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+          bool isPlaying = false;
+                         ^
+Source/Effect.hpp(324,18): warning : in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+          bool isStopping = false;
+                          ^
+Source/Effect.hpp(331,14): warning : in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+          bool canUse = true;
+                      ^
+  In file included from Source\Particle.cpp:6:
+  In file included from Source/Particle.hpp:8:
+  In file included from Source/MuscleBreak.hpp:22:
+Source/Header.h(33,12): warning : in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+          int judge = 0;
+                    ^
+Source/Header.h(36,12): warning : in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+          int Color = GetColor(255, 255, 255);
+                    ^
+Source/Header.h(38,18): warning : in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+          float RingScale = 300;
+                          ^
+Source/Header.h(39,18): warning : in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+          float RingCount = 0;
+                          ^
+Source/Header.h(41,16): warning : in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+          bool StartTap = false;
+                        ^
+Source/Header.h(42,13): warning : in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+          bool Mouse = true;
+                     ^
+Source/Header.h(43,19): warning : in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+          bool ScaleChange = false;
+                           ^
+Source/Header.h(44,15): warning : in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+          bool Playing = false;
+                       ^
+Source/Header.h(60,13): warning : in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+          float Alpha=0;
+                     ^
+Source/Header.h(61,13): warning : in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+          float time = 0;
+                     ^
+Source/Header.h(64,15): warning : in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+          bool ManGrap = true;
+                       ^
+Source/Header.h(65,13): warning : in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+          bool DrawB = true; 
+                     ^
+Source/Header.h(67,13): warning : in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+          bool TimeF = false;
+                     ^
+Source/Header.h(68,12): warning : in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+          bool EndF = false;
+                    ^
+  In file included from Source\Particle.cpp:6:
+Source/Particle.hpp(49,15): warning : in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+          bool reverse = false;
+                       ^
+Source/Particle.hpp(53,12): warning : in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+          bool stop = true;
+                    ^
+Source/Particle.hpp(152,12): warning : in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+          bool stop = false;
+                    ^
+Source/Particle.hpp(187,21): warning : in-class initializer for static data member of type 'const float' is a GNU extension [-Wgnu-static-float-init]
+          static const float g = 9.80665f;
+                             ^   ~~~~~~~~
+Source\Particle.cpp(59,42): warning : field 'time' will be initialized after field 'size' [-Wreorder]
+          originalPos(originalPos), range(range), time(time), size(0)
+                                                  ^
+Source\Particle.cpp(92,22): warning : field 'range' will be initialized after field 'rot' [-Wreorder]
+          centerAngle(angle), range(range), rot(0.0f), rotSpeed(GetRand(PI / 16 * 100) / 100.0f), delayCount(delayCount), time(time), length(length)
+                              ^
+Source\Particle.cpp(92,90): warning : field 'delayCount' will be initialized after field 'time' [-Wreorder]
+          centerAngle(angle), range(range), rot(0.0f), rotSpeed(GetRand(PI / 16 * 100) / 100.0f), delayCount(delayCount), time(time), length(length)
+                                                                                                  ^
+  33 warnings generated.
+  Ranking.cpp
+  Scene.cpp
+  In file included from Source\Scene.cpp:6:
+  In file included from Source/Scene.hpp:10:
+  In file included from Source/MuscleBreak.hpp:15:
+Source/Meter.hpp(50,13): warning : in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+          bool isMax = false;
+                     ^
+Source/Meter.hpp(54,13): warning : in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+          bool isMin = false;
+                     ^
+  In file included from Source\Scene.cpp:6:
+  In file included from Source/Scene.hpp:10:
+  In file included from Source/MuscleBreak.hpp:19:
+  In file included from Source/Effect.hpp:11:
+Source/Particle.hpp(49,15): warning : in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+          bool reverse = false;
+                       ^
+Source/Particle.hpp(53,12): warning : in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+          bool stop = true;
+                    ^
+Source/Particle.hpp(152,12): warning : in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+          bool stop = false;
+                    ^
+Source/Particle.hpp(187,21): warning : in-class initializer for static data member of type 'const float' is a GNU extension [-Wgnu-static-float-init]
+          static const float g = 9.80665f;
+                             ^   ~~~~~~~~
+  In file included from Source\Scene.cpp:6:
+  In file included from Source/Scene.hpp:10:
+  In file included from Source/MuscleBreak.hpp:19:
+Source/Effect.hpp(151,16): warning : in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+          int stopCount = 0;
+                        ^
+Source/Effect.hpp(158,14): warning : in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+          bool isStop = false;
+                      ^
+Source/Effect.hpp(195,14): warning : in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+          bool isPlay = false;
+                      ^
+Source/Effect.hpp(200,12): warning : in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+          int alpha = 0;
+                    ^
+Source/Effect.hpp(301,12): warning : in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+          int alpha = 0;
+                    ^
+Source/Effect.hpp(305,15): warning : in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+          float radius = 0;
+                       ^
+Source/Effect.hpp(310,20): warning : in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+          float centerAngle = 0.f;
+                            ^
+Source/Effect.hpp(320,17): warning : in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+          bool isPlaying = false;
+                         ^
+Source/Effect.hpp(324,18): warning : in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+          bool isStopping = false;
+                          ^
+Source/Effect.hpp(331,14): warning : in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+          bool canUse = true;
+                      ^
+  In file included from Source\Scene.cpp:6:
+  In file included from Source/Scene.hpp:10:
+  In file included from Source/MuscleBreak.hpp:22:
+Source/Header.h(33,12): warning : in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+          int judge = 0;
+                    ^
+Source/Header.h(36,12): warning : in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+          int Color = GetColor(255, 255, 255);
+                    ^
+Source/Header.h(38,18): warning : in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+          float RingScale = 300;
+                          ^
+Source/Header.h(39,18): warning : in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+          float RingCount = 0;
+                          ^
+Source/Header.h(41,16): warning : in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+          bool StartTap = false;
+                        ^
+Source/Header.h(42,13): warning : in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+          bool Mouse = true;
+                     ^
+Source/Header.h(43,19): warning : in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+          bool ScaleChange = false;
+                           ^
+Source/Header.h(44,15): warning : in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+          bool Playing = false;
+                       ^
+Source/Header.h(60,13): warning : in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+          float Alpha=0;
+                     ^
+Source/Header.h(61,13): warning : in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+          float time = 0;
+                     ^
+Source/Header.h(64,15): warning : in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+          bool ManGrap = true;
+                       ^
+Source/Header.h(65,13): warning : in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+          bool DrawB = true; 
+                     ^
+Source/Header.h(67,13): warning : in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+          bool TimeF = false;
+                     ^
+Source/Header.h(68,12): warning : in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+          bool EndF = false;
+                    ^
+Source\Scene.cpp(186,75): warning : conversion from string literal to 'char *' is deprecated [-Wc++11-compat-deprecated-writable-strings]
+          Button button(Vector2(1080 / 2 - 150, 1920 / 2 - 50), Vector2(300, 100), "START");
+                                                                                   ^
+Source\Scene.cpp(187,74): warning : conversion from string literal to 'char *' is deprecated [-Wc++11-compat-deprecated-writable-strings]
+          Button rank(Vector2(1080 / 2 - 150, 1920 / 2 + 100), Vector2(300, 100), "RANKING");
+                                                                                  ^
+Source\Scene.cpp(300,60): warning : conversion from string literal to 'char *' is deprecated [-Wc++11-compat-deprecated-writable-strings]
+          Button pause(Vector2(1080 - 300, 100), Vector2(200, 100), "Pause");
+                                                                    ^
+Source\Scene.cpp(301,74): warning : conversion from string literal to 'char *' is deprecated [-Wc++11-compat-deprecated-writable-strings]
+          Button back(Vector2(1080 / 2 - 200, 1920 / 2 - 150), Vector2(400, 100), "CLOSE");
+                                                                                  ^
+Source\Scene.cpp(302,74): warning : conversion from string literal to 'char *' is deprecated [-Wc++11-compat-deprecated-writable-strings]
+          Button title(Vector2(1080 / 2 - 225, 1920 / 2 + 50), Vector2(450, 100), "TITLE");
+                                                                                  ^
+Source\Scene.cpp(635,75): warning : conversion from string literal to 'char *' is deprecated [-Wc++11-compat-deprecated-writable-strings]
+          Button replay(Vector2(1080 / 2 - 150, 1920 / 2 - 50), Vector2(300, 100), "RETRY");
+                                                                                   ^
+Source\Scene.cpp(636,74): warning : conversion from string literal to 'char *' is deprecated [-Wc++11-compat-deprecated-writable-strings]
+          Button back(Vector2(1080 / 2 - 150, 1920 / 2 + 100), Vector2(300, 100), "TITLE");
+                                                                                  ^
+Source\Scene.cpp(711,75): warning : conversion from string literal to 'char *' is deprecated [-Wc++11-compat-deprecated-writable-strings]
+          Button button(Vector2(1080 / 2 - 100, 1920 / 2 +500), Vector2(200, 100), "BACK");
+                                                                                   ^
+  In file included from Source\Scene.cpp:6:
+  In file included from Source/Scene.hpp:10:
+  In file included from Source/MuscleBreak.hpp:19:
+Source/Effect.hpp(80,4): warning : delete called on 'ClothParticle' that has virtual functions but non-virtual destructor [-Wdelete-non-virtual-dtor]
+                          delete particle[i];
+                          ^
+  Source/Effect.hpp(188,7) :  note: in instantiation of member function 'Effect<ClothParticle>::~Effect' requested here
+  class ClothBreak : public Effect<ClothParticle>
+        ^
+Source/Effect.hpp(80,4): warning : delete called on 'SmokeParticle' that has virtual functions but non-virtual destructor [-Wdelete-non-virtual-dtor]
+                          delete particle[i];
+                          ^
+  Source/Effect.hpp(140,7) :  note: in instantiation of member function 'Effect<SmokeParticle>::~Effect' requested here
+  class Smoke : public Effect<SmokeParticle>
+        ^
+Source/Effect.hpp(80,4): warning : delete called on 'LineParticle' that has virtual functions but non-virtual destructor [-Wdelete-non-virtual-dtor]
+                          delete particle[i];
+                          ^
+  Source/Effect.hpp(239,7) :  note: in instantiation of member function 'Effect<LineParticle>::~Effect' requested here
+  class LineEffect : public Effect<LineParticle>
+        ^
+Source/Effect.hpp(62,13): warning : field 'particleCount' will be initialized after field 'range' [-Wreorder]
+                  pos(pos), particleCount(particleCount), range(range), time(time)
+                            ^
+  Source\Scene.cpp(335,19) :  note: in instantiation of member function 'Effect<Particle>::Effect' requested here
+          Effect<Particle> effect(Vector2(1080 / 2, 1920 / 2 + 50), 0, 400, 1.f);
+                           ^
+  In file included from Source\Scene.cpp:6:
+  In file included from Source/Scene.hpp:10:
+  In file included from Source/MuscleBreak.hpp:19:
+Source/Effect.hpp(80,4): warning : delete called on 'Particle' that has virtual functions but non-virtual destructor [-Wdelete-non-virtual-dtor]
+                          delete particle[i];
+                          ^
+  Source\Scene.cpp(335,19) :  note: in instantiation of member function 'Effect<Particle>::~Effect' requested here
+          Effect<Particle> effect(Vector2(1080 / 2, 1920 / 2 + 50), 0, 400, 1.f);
+                           ^
+  In file included from Source\Scene.cpp:6:
+  In file included from Source/Scene.hpp:10:
+  In file included from Source/MuscleBreak.hpp:19:
+Source/Effect.hpp(113,4): warning : delete called on 'Particle' that has virtual functions but non-virtual destructor [-Wdelete-non-virtual-dtor]
+                          delete particle[i];
+                          ^
+  Source\Scene.cpp(338,9) :  note: in instantiation of member function 'Effect<Particle>::ChangeParticleCount' requested here
+          effect.ChangeParticleCount(0);
+                 ^
+  44 warnings generated.
+  Other.cpp
+  TitleAnimetioncpp.cpp
+  In file included from Source\TitleAnimetioncpp.cpp:1:
+  In file included from Source/Header.h:3:
+  In file included from Source/MuscleBreak.hpp:15:
+Source/Meter.hpp(50,13): warning : in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+          bool isMax = false;
+                     ^
+Source/Meter.hpp(54,13): warning : in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+          bool isMin = false;
+                     ^
+  In file included from Source\TitleAnimetioncpp.cpp:1:
+  In file included from Source/Header.h:3:
+  In file included from Source/MuscleBreak.hpp:19:
+  In file included from Source/Effect.hpp:11:
+Source/Particle.hpp(49,15): warning : in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+          bool reverse = false;
+                       ^
+Source/Particle.hpp(53,12): warning : in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+          bool stop = true;
+                    ^
+Source/Particle.hpp(152,12): warning : in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+          bool stop = false;
+                    ^
+Source/Particle.hpp(187,21): warning : in-class initializer for static data member of type 'const float' is a GNU extension [-Wgnu-static-float-init]
+          static const float g = 9.80665f;
+                             ^   ~~~~~~~~
+  In file included from Source\TitleAnimetioncpp.cpp:1:
+  In file included from Source/Header.h:3:
+  In file included from Source/MuscleBreak.hpp:19:
+Source/Effect.hpp(151,16): warning : in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+          int stopCount = 0;
+                        ^
+Source/Effect.hpp(158,14): warning : in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+          bool isStop = false;
+                      ^
+Source/Effect.hpp(195,14): warning : in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+          bool isPlay = false;
+                      ^
+Source/Effect.hpp(200,12): warning : in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+          int alpha = 0;
+                    ^
+Source/Effect.hpp(301,12): warning : in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+          int alpha = 0;
+                    ^
+Source/Effect.hpp(305,15): warning : in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+          float radius = 0;
+                       ^
+Source/Effect.hpp(310,20): warning : in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+          float centerAngle = 0.f;
+                            ^
+Source/Effect.hpp(320,17): warning : in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+          bool isPlaying = false;
+                         ^
+Source/Effect.hpp(324,18): warning : in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+          bool isStopping = false;
+                          ^
+Source/Effect.hpp(331,14): warning : in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+          bool canUse = true;
+                      ^
+  In file included from Source\TitleAnimetioncpp.cpp:1:
+Source/Header.h(33,12): warning : in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+          int judge = 0;
+                    ^
+Source/Header.h(36,12): warning : in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+          int Color = GetColor(255, 255, 255);
+                    ^
+Source/Header.h(38,18): warning : in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+          float RingScale = 300;
+                          ^
+Source/Header.h(39,18): warning : in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+          float RingCount = 0;
+                          ^
+Source/Header.h(41,16): warning : in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+          bool StartTap = false;
+                        ^
+Source/Header.h(42,13): warning : in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+          bool Mouse = true;
+                     ^
+Source/Header.h(43,19): warning : in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+          bool ScaleChange = false;
+                           ^
+Source/Header.h(44,15): warning : in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+          bool Playing = false;
+                       ^
+Source/Header.h(60,13): warning : in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+          float Alpha=0;
+                     ^
+Source/Header.h(61,13): warning : in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+          float time = 0;
+                     ^
+Source/Header.h(64,15): warning : in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+          bool ManGrap = true;
+                       ^
+Source/Header.h(65,13): warning : in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+          bool DrawB = true; 
+                     ^
+Source/Header.h(67,13): warning : in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+          bool TimeF = false;
+                     ^
+Source/Header.h(68,12): warning : in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+          bool EndF = false;
+                    ^
+  In file included from Source\TitleAnimetioncpp.cpp:1:
+  In file included from Source/Header.h:3:
+  In file included from Source/MuscleBreak.hpp:19:
+Source/Effect.hpp(80,4): warning : delete called on 'ClothParticle' that has virtual functions but non-virtual destructor [-Wdelete-non-virtual-dtor]
+                          delete particle[i];
+                          ^
+  Source/Effect.hpp(188,7) :  note: in instantiation of member function 'Effect<ClothParticle>::~Effect' requested here
+  class ClothBreak : public Effect<ClothParticle>
+        ^
+  31 warnings generated.
+  MuscleBreak.NativeActivity.vcxproj -> D:\Program\Project\DxLib\MuscleBreak\Project\ARM\Debug\libMuscleBreak.so
